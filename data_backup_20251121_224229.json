@@ -1,0 +1,200 @@
+{
+  "name": "Codexx Dev",
+  "title": "Full-Stack Developer & Software Engineer",
+  "description": "Innovative software engineer crafting cutting-edge digital solutions with modern technologies",
+  "about": "I'm Codexx Dev, a passionate full-stack developer and software engineer with expertise in building scalable web applications and innovative digital solutions. I specialize in modern web technologies including React, Node.js, Python, and cloud services. My focus is on creating clean, efficient code that delivers exceptional user experiences and solves real-world problems. With a deep understanding of both frontend and backend development, I bring ideas to life through elegant and maintainable solutions.",
+  "photo": "static/assets/profile-placeholder.svg",
+  "skills": [
+    {
+      "name": "JavaScript/TypeScript",
+      "level": 95
+    },
+    {
+      "name": "React & Next.js",
+      "level": 90
+    },
+    {
+      "name": "Python & Django",
+      "level": 88
+    },
+    {
+      "name": "Node.js & Express",
+      "level": 92
+    },
+    {
+      "name": "Database Design (SQL/NoSQL)",
+      "level": 85
+    },
+    {
+      "name": "Cloud Services (AWS/Azure)",
+      "level": 80
+    },
+    {
+      "name": "UI/UX Design",
+      "level": 75
+    },
+    {
+      "name": "DevOps & CI/CD",
+      "level": 78
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "description": "A modern e-commerce platform built with React and Node.js, featuring user authentication, payment integration, inventory management, and an admin dashboard. Complete shopping experience with cart functionality, order tracking, and responsive design.",
+      "image": "static/assets/uploads/ecommerce-project.jpg",
+      "demo_url": "#",
+      "github_url": "#",
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Stripe",
+        "JWT"
+      ],
+      "short_description": "Full-featured e-commerce platform with secure payments and inventory management",
+      "content": "A comprehensive e-commerce solution built with React and Node.js, featuring user authentication, payment integration via Stripe, advanced inventory management, and a powerful admin dashboard. The platform offers a complete shopping experience with real-time cart functionality, order tracking, and responsive design optimized for all devices. Built with security and scalability in mind."
+    },
+    {
+      "id": 2,
+      "title": "Task Management App",
+      "description": "A collaborative task management application with real-time updates, drag-and-drop functionality, team collaboration tools, and project tracking. Features include kanban boards, time tracking, and team chat integration.",
+      "image": "static/assets/uploads/taskmanager-project.jpg",
+      "demo_url": "#",
+      "github_url": "#",
+      "technologies": [
+        "Vue.js",
+        "Express",
+        "Socket.io",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "short_description": "Real-time collaborative task management with kanban boards and team features",
+      "content": "An advanced collaborative task management application featuring real-time updates via Socket.io, intuitive drag-and-drop functionality, and comprehensive team collaboration tools. The platform includes kanban boards for visual project management, integrated time tracking, and seamless team chat integration. Built with Vue.js and Express for optimal performance."
+    },
+    {
+      "id": 3,
+      "title": "Weather Dashboard",
+      "description": "A responsive weather dashboard that displays current weather conditions, forecasts, and interactive maps using weather APIs. Features location-based weather, weather alerts, and beautiful data visualizations with charts and graphs.",
+      "image": "static/assets/uploads/weather-project.jpg",
+      "demo_url": "#",
+      "github_url": "#",
+      "technologies": [
+        "JavaScript",
+        "Chart.js",
+        "OpenWeather API",
+        "Leaflet",
+        "Bootstrap"
+      ],
+      "short_description": "Interactive weather dashboard with forecasts and data visualizations",
+      "content": "A beautiful and responsive weather dashboard that provides real-time weather conditions, detailed forecasts, and interactive maps powered by OpenWeather API and Leaflet. The application features location-based weather detection, severe weather alerts, and stunning data visualizations using Chart.js. Designed with Bootstrap for a seamless mobile experience."
+    },
+    {
+      "id": 4,
+      "title": "Social Media Analytics",
+      "description": "A comprehensive social media analytics platform that tracks engagement metrics, follower growth, and content performance across multiple platforms. Includes automated reporting and insights dashboard.",
+      "image": "static/assets/uploads/analytics-project.jpg",
+      "demo_url": "#",
+      "github_url": "#",
+      "technologies": [
+        "React",
+        "Python",
+        "Django",
+        "D3.js",
+        "MySQL"
+      ],
+      "short_description": "Multi-platform social media analytics with automated insights and reporting",
+      "content": "A powerful social media analytics platform built with React and Django that provides comprehensive tracking of engagement metrics, follower growth trends, and content performance across multiple social platforms. Features include automated reporting, customizable dashboards, and advanced data visualizations using D3.js for actionable insights."
+    },
+    {
+      "id": 5,
+      "title": "Learning Management System",
+      "description": "A modern LMS platform for online education with course creation tools, student progress tracking, interactive quizzes, video streaming, and certification management. Supports multiple user roles and real-time collaboration.",
+      "image": "static/assets/uploads/lms-project.jpg",
+      "demo_url": "#",
+      "github_url": "#",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Prisma",
+        "NextAuth",
+        "AWS S3"
+      ],
+      "short_description": "Complete LMS platform with course creation and certification management",
+      "content": "A comprehensive Learning Management System built with Next.js and TypeScript, offering powerful course creation tools, detailed student progress tracking, interactive quizzes, and seamless video streaming via AWS S3. The platform supports multiple user roles (students, instructors, administrators) with role-based permissions and includes automated certification management."
+    },
+    {
+      "id": 6,
+      "title": "Restaurant POS System",
+      "description": "A complete point-of-sale system for restaurants with order management, inventory tracking, staff scheduling, and sales reporting. Features table management, kitchen display, and payment processing.",
+      "image": "static/assets/uploads/pos-project.jpg",
+      "demo_url": "#",
+      "github_url": "#",
+      "technologies": [
+        "Angular",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PayPal API"
+      ],
+      "short_description": "Full-featured restaurant POS with inventory and staff management",
+      "content": "A complete point-of-sale system designed specifically for restaurants, featuring comprehensive order management, real-time inventory tracking, staff scheduling, and detailed sales reporting. The system includes table management, kitchen display integration, and secure payment processing through PayPal API. Built with Angular and Node.js for reliability and performance."
+    },
+    {
+      "id": 7,
+      "title": "Futuristic Neon Matrix Password Terminal",
+      "short_description": "Cyberpunk-styled terminal interface with Matrix rain and neon UI",
+      "content": "Step into the future of digital interfaces with the Cyber Matrix Terminal. This is a futuristic cyberpunk-styled terminal interface featuring a mesmerizing Matrix rain background, vibrant neon UI elements, and a fully interactive password unlock system. Complete with stunning animated effects, this terminal provides a visually striking and engaging experience for any project requiring a modern, secure access point.\n\nKey Features:\n• Matrix Rain Animated Background: An immersive and continuously running Matrix animation that sets a captivating cyberpunk tone\n• Cyberpunk Neon-Styled Terminal Panel: A sleek, high-contrast cyberpunk UI with glowing neon design elements\n• Interactive Password Input with Animation: Dynamic password terminal where characters animate as you type\n• Unlock/Wipe Buttons with Status Feedback: Functional buttons provide clear visual feedback\n• Responsive Design with Futuristic Feel: Fully responsive across all devices\n\nThe Cyber Matrix Terminal is more than just a stunning visual piece; it's a functional and stylish component for any project needing a high-tech, secure login interface.",
+      "description": "Step into the future of digital interfaces with the Cyber Matrix Terminal",
+      "image": "static/assets/uploads/project_7_20251103_200159_Cover.png",
+      "demo_url": "https://garrenrs.github.io/Data/cyberpunk_terminal/",
+      "github_url": "https://github.com/GarrenRs/Data/tree/main/cyberpunk_terminal",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }
+  ],
+  "contact": {
+    "email": "contact@codexxdev.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "Remote | Available Worldwide"
+  },
+  "social": {
+    "linkedin": "https://linkedin.com/in/codexxdev",
+    "github": "https://github.com/codexxdev",
+    "twitter": "https://twitter.com/codexxdev",
+    "instagram": "",
+    "facebook": "",
+    "youtube": "",
+    "behance": "",
+    "dribbble": ""
+  },
+  "messages": [],
+  "visitors": {
+    "total": 3,
+    "today": [
+      {
+        "ip": "105.235.128.217, 10.81.6.139",
+        "timestamp": "2025-11-21 22:39:31",
+        "date": "2025-11-21"
+      },
+      {
+        "ip": "105.235.128.217, 10.81.6.139",
+        "timestamp": "2025-11-21 22:41:10",
+        "date": "2025-11-21"
+      },
+      {
+        "ip": "105.235.128.217, 10.81.6.139",
+        "timestamp": "2025-11-21 22:41:16",
+        "date": "2025-11-21"
+      }
+    ],
+    "unique_ips": [
+      "105.235.128.217, 10.81.6.139"
+    ]
+  },
+  "clients": []
+}
