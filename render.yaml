@@ -7,7 +7,7 @@ services:
     startCommand: "gunicorn --bind 0.0.0.0:$PORT --workers 1 app:app"
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11
+        value: 3.11.0
       - key: SESSION_SECRET
         generateValue: true
       - key: ADMIN_USERNAME
