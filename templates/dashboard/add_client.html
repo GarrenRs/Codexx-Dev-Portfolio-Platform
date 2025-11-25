@@ -57,21 +57,29 @@
                     </div>
                     
                     <div class="row">
-                        <div class="col-md-4 mb-3">
-                            <label for="status" class="form-label">Project Status *</label>
+                        <div class="col-md-3 mb-3">
+                            <label for="status" class="form-label">Workflow Status *</label>
                             <select class="form-select" id="status" name="status" required>
-                                <option value="pending">Pending</option>
-                                <option value="active">Active</option>
-                                <option value="on-hold">On Hold</option>
-                                <option value="completed">Completed</option>
+                                <option value="lead" selected>Lead</option>
+                                <option value="negotiation">Negotiation</option>
+                                <option value="in-progress">In Progress</option>
+                                <option value="delivered">Delivered</option>
                             </select>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-3 mb-3">
                             <label for="price" class="form-label">Price (USD)</label>
                             <input type="number" class="form-control" id="price" name="price" step="0.01" min="0" 
                                    placeholder="0.00">
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-3 mb-3">
+                            <label for="payment_status" class="form-label">Payment Status</label>
+                            <select class="form-select" id="payment_status" name="payment_status">
+                                <option value="pending" selected>Pending</option>
+                                <option value="partial">Partial</option>
+                                <option value="completed">Completed</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
                             <label for="deadline" class="form-label">Deadline</label>
                             <input type="date" class="form-control" id="deadline" name="deadline">
                         </div>
@@ -146,20 +154,20 @@
             </div>
             <div class="card-body">
                 <div class="mb-2">
-                    <span class="badge" style="background: #3b82f6;">Pending</span>
-                    <small class="ms-2">Awaiting approval</small>
+                    <span class="badge" style="background: #f59e0b;">🎯 Lead</span>
+                    <small class="ms-2">New inquiry</small>
                 </div>
                 <div class="mb-2">
-                    <span class="badge" style="background: #10b981;">Active</span>
+                    <span class="badge" style="background: #3b82f6;">💬 Negotiation</span>
+                    <small class="ms-2">Discussing terms</small>
+                </div>
+                <div class="mb-2">
+                    <span class="badge" style="background: #10b981;">⚙️ In Progress</span>
                     <small class="ms-2">Currently working</small>
                 </div>
                 <div class="mb-2">
-                    <span class="badge" style="background: #f59e0b;">On Hold</span>
-                    <small class="ms-2">Temporarily paused</small>
-                </div>
-                <div class="mb-2">
-                    <span class="badge" style="background: #8b5cf6;">Completed</span>
-                    <small class="ms-2">Project finished</small>
+                    <span class="badge" style="background: #8b5cf6;">✅ Delivered</span>
+                    <small class="ms-2">Project complete</small>
                 </div>
             </div>
         </div>

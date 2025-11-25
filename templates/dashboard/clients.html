@@ -67,6 +67,7 @@
                                 <th style="color: #000000 !important; font-weight: 600;">Project</th>
                                 <th style="color: #000000 !important; font-weight: 600;">Status</th>
                                 <th style="color: #000000 !important; font-weight: 600;">Price</th>
+                                <th style="color: #000000 !important; font-weight: 600;">Payment</th>
                                 <th style="color: #000000 !important; font-weight: 600;">Deadline</th>
                                 <th style="color: #000000 !important; font-weight: 600;">Actions</th>
                             </tr>
@@ -105,21 +106,25 @@
                                     {% endif %}
                                 </td>
                                 <td>
-                                    {% if client.status == 'active' %}
-                                    <span class="badge" style="background: #10b981; color: #ffffff;">
-                                        <i class="fas fa-spinner fa-spin me-1"></i>Active
-                                    </span>
-                                    {% elif client.status == 'completed' %}
-                                    <span class="badge" style="background: #8b5cf6; color: #ffffff;">
-                                        <i class="fas fa-check-circle me-1"></i>Completed
-                                    </span>
-                                    {% elif client.status == 'on-hold' %}
+                                    {% if client.status == 'lead' %}
                                     <span class="badge" style="background: #f59e0b; color: #ffffff;">
-                                        <i class="fas fa-pause-circle me-1"></i>On Hold
+                                        <i class="fas fa-flag me-1"></i>Lead
+                                    </span>
+                                    {% elif client.status == 'negotiation' %}
+                                    <span class="badge" style="background: #3b82f6; color: #ffffff;">
+                                        <i class="fas fa-comments me-1"></i>Negotiation
+                                    </span>
+                                    {% elif client.status == 'in-progress' %}
+                                    <span class="badge" style="background: #10b981; color: #ffffff;">
+                                        <i class="fas fa-spinner fa-spin me-1"></i>In Progress
+                                    </span>
+                                    {% elif client.status == 'delivered' %}
+                                    <span class="badge" style="background: #8b5cf6; color: #ffffff;">
+                                        <i class="fas fa-check-circle me-1"></i>Delivered
                                     </span>
                                     {% else %}
-                                    <span class="badge" style="background: #3b82f6; color: #ffffff;">
-                                        <i class="fas fa-clock me-1"></i>Pending
+                                    <span class="badge" style="background: #6b7280; color: #ffffff;">
+                                        <i class="fas fa-question-circle me-1"></i>Unknown
                                     </span>
                                     {% endif %}
                                 </td>
@@ -128,6 +133,23 @@
                                     <strong style="color: #10b981 !important;">${{ client.price }}</strong>
                                     {% else %}
                                     <span style="color: rgba(255,255,255,0.5) !important;">-</span>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    {% if client.payment_status == 'pending' %}
+                                    <span class="badge" style="background: #f59e0b; color: #ffffff;">
+                                        <i class="fas fa-clock me-1"></i>Pending
+                                    </span>
+                                    {% elif client.payment_status == 'partial' %}
+                                    <span class="badge" style="background: #3b82f6; color: #ffffff;">
+                                        <i class="fas fa-money-bill me-1"></i>Partial
+                                    </span>
+                                    {% elif client.payment_status == 'completed' %}
+                                    <span class="badge" style="background: #10b981; color: #ffffff;">
+                                        <i class="fas fa-check-circle me-1"></i>Completed
+                                    </span>
+                                    {% else %}
+                                    <span class="badge" style="background: #6b7280; color: #ffffff;">Unknown</span>
                                     {% endif %}
                                 </td>
                                 <td>

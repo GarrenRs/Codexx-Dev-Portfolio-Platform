@@ -60,21 +60,25 @@
                             <tr>
                                 <td style="width: 40%;"><strong>Status:</strong></td>
                                 <td>
-                                    {% if client.status == 'active' %}
-                                    <span class="badge" style="background: #10b981; color: #ffffff;">
-                                        <i class="fas fa-spinner fa-spin me-1"></i>Active
-                                    </span>
-                                    {% elif client.status == 'completed' %}
-                                    <span class="badge" style="background: #8b5cf6; color: #ffffff;">
-                                        <i class="fas fa-check-circle me-1"></i>Completed
-                                    </span>
-                                    {% elif client.status == 'on-hold' %}
+                                    {% if client.status == 'lead' %}
                                     <span class="badge" style="background: #f59e0b; color: #ffffff;">
-                                        <i class="fas fa-pause-circle me-1"></i>On Hold
+                                        <i class="fas fa-flag me-1"></i>Lead
+                                    </span>
+                                    {% elif client.status == 'negotiation' %}
+                                    <span class="badge" style="background: #3b82f6; color: #ffffff;">
+                                        <i class="fas fa-comments me-1"></i>Negotiation
+                                    </span>
+                                    {% elif client.status == 'in-progress' %}
+                                    <span class="badge" style="background: #10b981; color: #ffffff;">
+                                        <i class="fas fa-spinner fa-spin me-1"></i>In Progress
+                                    </span>
+                                    {% elif client.status == 'delivered' %}
+                                    <span class="badge" style="background: #8b5cf6; color: #ffffff;">
+                                        <i class="fas fa-check-circle me-1"></i>Delivered
                                     </span>
                                     {% else %}
-                                    <span class="badge" style="background: #3b82f6; color: #ffffff;">
-                                        <i class="fas fa-clock me-1"></i>Pending
+                                    <span class="badge" style="background: #6b7280; color: #ffffff;">
+                                        <i class="fas fa-question-circle me-1"></i>Unknown
                                     </span>
                                     {% endif %}
                                 </td>
