@@ -9,3 +9,4 @@ psycopg2-binary==2.9.10
 oauthlib==3.2.2
 PyJWT==2.10.1
 weasyprint==65.1
+APScheduler==3.10.4
