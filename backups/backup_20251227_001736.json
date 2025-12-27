@@ -1,0 +1,48 @@
+{
+  "name": "",
+  "title": "",
+  "description": "",
+  "about": "",
+  "photo": "static/assets/profile-placeholder.svg",
+  "skills": [],
+  "projects": [],
+  "contact": {
+    "email": "",
+    "phone": "",
+    "location": ""
+  },
+  "social": {
+    "linkedin": "",
+    "github": "",
+    "twitter": "",
+    "instagram": "",
+    "facebook": "",
+    "youtube": "",
+    "behance": "",
+    "dribbble": ""
+  },
+  "messages": [],
+  "visitors": {
+    "total": 2,
+    "today": [
+      {
+        "ip": "127.0.0.1",
+        "timestamp": "2025-12-27 00:17:23",
+        "date": "2025-12-27"
+      },
+      {
+        "ip": "105.235.130.83, 10.82.5.28",
+        "timestamp": "2025-12-27 00:17:24",
+        "date": "2025-12-27"
+      }
+    ],
+    "unique_ips": [
+      "105.235.130.83, 10.82.5.28",
+      "127.0.0.1"
+    ]
+  },
+  "clients": [],
+  "settings": {
+    "theme": "luxury-gold"
+  }
+}

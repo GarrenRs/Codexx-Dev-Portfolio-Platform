@@ -1,0 +1,34 @@
+{
+  "name": "",
+  "title": "",
+  "description": "",
+  "about": "",
+  "photo": "static/assets/profile-placeholder.svg",
+  "skills": [],
+  "projects": [],
+  "contact": {
+    "email": "",
+    "phone": "",
+    "location": ""
+  },
+  "social": {
+    "linkedin": "",
+    "github": "",
+    "twitter": "",
+    "instagram": "",
+    "facebook": "",
+    "youtube": "",
+    "behance": "",
+    "dribbble": ""
+  },
+  "messages": [],
+  "visitors": {
+    "total": 0,
+    "today": [],
+    "unique_ips": []
+  },
+  "clients": [],
+  "settings": {
+    "theme": "luxury-gold"
+  }
+}

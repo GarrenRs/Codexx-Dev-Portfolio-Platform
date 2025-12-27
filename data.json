@@ -1,370 +1,46 @@
 {
-  "name": "Your Name",
-  "title": "Your Professional Title",
-  "description": "A brief description of your professional expertise and services",
-  "about": "Welcome to my portfolio! I'm a professional passionate about creating exceptional digital solutions. With expertise in various technologies and a focus on delivering quality work, I help clients achieve their goals through innovative and scalable solutions. Feel free to explore my work and get in touch if you'd like to collaborate!",
+  "name": "Demo Portfolio - Codexx",
+  "title": "Web Developer & Designer",
+  "description": "Experience the power of Codexx Portfolio Platform with this interactive demo",
   "photo": "static/assets/profile-placeholder.svg",
+  "about": "Welcome to the Codexx Portfolio Platform! This is a live demo showcasing all the features available in our professional portfolio management system. Feel free to explore and customize this demo to see how your portfolio would look.",
   "skills": [
     {
-      "name": "Skill 1",
-      "level": 85
-    },
-    {
-      "name": "Skill 2",
-      "level": 80
-    },
-    {
-      "name": "Skill 3",
-      "level": 75
-    },
-    {
-      "name": "Skill 4",
+      "name": "Web Development",
       "level": 90
     },
     {
-      "name": "Skill 5",
+      "name": "UI/UX Design",
+      "level": 85
+    },
+    {
+      "name": "JavaScript",
       "level": 88
+    },
+    {
+      "name": "React.js",
+      "level": 85
+    },
+    {
+      "name": "Python",
+      "level": 80
     }
   ],
-  "projects": [
-    {
-      "id": 1,
-      "title": "E-Commerce Platform",
-      "description": "A modern, full-featured e-commerce platform built with cutting-edge technologies. This project showcases expertise in building scalable web applications with secure payment processing, real-time inventory management, and an intuitive user interface.",
-      "image": "static/assets/uploads/project-1.jpg",
-      "demo_url": "#",
-      "github_url": "#",
-      "technologies": [
-        "React",
-        "Node.js",
-        "MongoDB",
-        "Stripe API",
-        "JWT Authentication"
-      ],
-      "short_description": "Full-featured e-commerce platform with secure payments and inventory management",
-      "content": "A comprehensive e-commerce solution built with React and Node.js, featuring user authentication with JWT, secure payment integration via Stripe, advanced inventory management system, and a powerful admin dashboard. The platform offers a complete shopping experience with real-time cart functionality, order tracking, product recommendations, and responsive design optimized for all devices. Built with security and scalability in mind, the system can handle thousands of concurrent users."
-    },
-    {
-      "id": 2,
-      "title": "Task Management Application",
-      "description": "A collaborative task management application designed for teams. Features real-time updates, intuitive kanban boards, team collaboration tools, and comprehensive project tracking with time management capabilities.",
-      "image": "static/assets/uploads/project-2.jpg",
-      "demo_url": "#",
-      "github_url": "#",
-      "technologies": [
-        "Vue.js",
-        "Express.js",
-        "Socket.io",
-        "PostgreSQL",
-        "Redis"
-      ],
-      "short_description": "Real-time collaborative task management with kanban boards and team features",
-      "content": "An advanced collaborative task management application featuring real-time updates via Socket.io, drag-and-drop kanban boards, and comprehensive team collaboration tools. The platform includes automated task assignments, deadline tracking, team chat integration, and time tracking functionality. Built with Vue.js for responsive UI and Express.js for robust backend, the system uses PostgreSQL for reliable data storage and Redis for caching. Features include activity logs, progress reports, and team analytics."
-    },
-    {
-      "id": 3,
-      "title": "Weather Dashboard Application",
-      "description": "A responsive weather dashboard providing real-time weather conditions, detailed forecasts, and interactive maps. Integrates multiple weather APIs and provides beautiful data visualizations with alert notifications.",
-      "image": "static/assets/uploads/project-3.jpg",
-      "demo_url": "#",
-      "github_url": "#",
-      "technologies": [
-        "JavaScript ES6",
-        "Chart.js",
-        "OpenWeather API",
-        "Leaflet Maps",
-        "Bootstrap 5"
-      ],
-      "short_description": "Interactive weather dashboard with forecasts and data visualizations",
-      "content": "A beautiful and responsive weather dashboard providing real-time weather conditions, detailed 14-day forecasts, and interactive maps powered by OpenWeather API and Leaflet. Features location-based weather detection using geolocation, severe weather alerts with push notifications, and stunning data visualizations using Chart.js. The application automatically detects user location and displays relevant weather information. Responsive design ensures excellent experience on desktop, tablet, and mobile devices with dark mode support."
-    },
-    {
-      "id": 4,
-      "title": "Social Media Analytics Platform",
-      "description": "A comprehensive analytics platform for tracking social media performance across multiple platforms. Provides detailed engagement metrics, follower growth analysis, and automated reporting with actionable insights.",
-      "image": "static/assets/uploads/project-4.jpg",
-      "demo_url": "#",
-      "github_url": "#",
-      "technologies": [
-        "React",
-        "Python",
-        "Django",
-        "D3.js",
-        "MySQL"
-      ],
-      "short_description": "Multi-platform social media analytics with automated insights and reporting",
-      "content": "A powerful social media analytics platform built with React and Django that provides comprehensive tracking of engagement metrics, follower growth trends, and content performance across Facebook, Instagram, Twitter, LinkedIn, and TikTok. Features include automated daily reporting, customizable analytics dashboards, advanced data visualizations using D3.js, competitor analysis, and predictive analytics. The platform aggregates data from multiple social platforms, identifies trending content, suggests optimal posting times, and generates detailed performance reports for data-driven decision making."
-    },
-    {
-      "id": 5,
-      "title": "Learning Management System",
-      "description": "A modern LMS platform for online education with comprehensive course creation tools, student progress tracking, interactive quizzes, video streaming, and automated certification management for educational institutions.",
-      "image": "static/assets/uploads/project-5.jpg",
-      "demo_url": "#",
-      "github_url": "#",
-      "technologies": [
-        "Next.js",
-        "TypeScript",
-        "Prisma ORM",
-        "NextAuth",
-        "AWS S3"
-      ],
-      "short_description": "Complete LMS platform with course creation and certification management",
-      "content": "A comprehensive Learning Management System built with Next.js and TypeScript, offering powerful course creation tools with drag-and-drop interface, detailed student progress tracking, interactive quizzes with instant feedback, seamless video streaming via AWS S3, and automated certification management. The platform supports multiple user roles including students, instructors, and administrators with granular permission controls. Features include discussion forums, peer-to-peer collaboration, progress analytics, and customizable certificates. Built for scalability to support thousands of concurrent learners."
-    },
-    {
-      "id": 6,
-      "title": "Restaurant POS System",
-      "description": "A complete point-of-sale system designed specifically for restaurants. Includes order management, real-time inventory tracking, staff scheduling, comprehensive sales reporting, and integrated payment processing.",
-      "image": "static/assets/uploads/project-6.jpg",
-      "demo_url": "#",
-      "github_url": "#",
-      "technologies": [
-        "Angular",
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "PayPal API"
-      ],
-      "short_description": "Full-featured restaurant POS with inventory and staff management",
-      "content": "A complete point-of-sale system designed specifically for restaurants and food service establishments. Features comprehensive order management from table ordering to kitchen display, real-time inventory tracking with automatic reordering, staff scheduling with shift management, and detailed sales reporting with revenue analytics. The system integrates payment processing via PayPal API, supports multiple payment methods, and includes customer loyalty programs. Advanced features include table management, kitchen display integration, staff performance analytics, and integration with supplier systems."
-    }
-  ],
+  "projects": [],
   "contact": {
-    "email": "your.email@example.com",
-    "phone": "+1 (555) 000-0000",
-    "location": "City, Country"
+    "email": "demo@codexx.com",
+    "phone": "+1 234 567 8900",
+    "location": "San Francisco, CA"
   },
-  "social": {
-    "linkedin": "",
-    "github": "",
-    "twitter": "",
-    "instagram": "",
-    "facebook": "",
-    "youtube": "",
-    "behance": "",
-    "dribbble": ""
-  },
+  "social": {},
   "messages": [],
   "visitors": {
-    "total": 38,
-    "today": [
-      {
-        "ip": "105.235.130.243, 10.82.5.119",
-        "timestamp": "2025-11-25 16:58:17",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.130.243, 10.82.5.119",
-        "timestamp": "2025-11-25 16:58:21",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.130.243, 10.82.5.119",
-        "timestamp": "2025-11-25 16:58:50",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "127.0.0.1",
-        "timestamp": "2025-11-25 17:01:31",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "127.0.0.1",
-        "timestamp": "2025-11-25 17:01:58",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.130.243, 10.82.5.119",
-        "timestamp": "2025-11-25 17:03:50",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.130.243, 10.82.5.119",
-        "timestamp": "2025-11-25 17:04:28",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.130.243, 10.82.6.137",
-        "timestamp": "2025-11-25 17:15:38",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.130.243, 10.82.0.252",
-        "timestamp": "2025-11-25 17:17:08",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.130.243, 10.82.5.119",
-        "timestamp": "2025-11-25 17:17:53",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.130.243, 10.82.7.52",
-        "timestamp": "2025-11-25 17:18:40",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.130.243, 10.82.3.161",
-        "timestamp": "2025-11-25 17:19:36",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.130.243, 10.82.10.233",
-        "timestamp": "2025-11-25 17:20:44",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.130.243, 10.82.9.32",
-        "timestamp": "2025-11-25 17:39:31",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.130.243, 10.82.11.205",
-        "timestamp": "2025-11-25 18:12:32",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.102, 10.82.11.206",
-        "timestamp": "2025-11-25 18:35:55",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.102, 10.82.9.32",
-        "timestamp": "2025-11-25 18:37:20",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.102, 10.82.7.52",
-        "timestamp": "2025-11-25 18:42:23",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.102, 10.82.6.137",
-        "timestamp": "2025-11-25 18:43:30",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.102, 10.82.6.137",
-        "timestamp": "2025-11-25 18:47:52",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.244, 10.82.11.206",
-        "timestamp": "2025-11-25 20:03:25",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.244, 10.82.10.226",
-        "timestamp": "2025-11-25 20:10:35",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.244, 10.82.11.206",
-        "timestamp": "2025-11-25 20:39:45",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "127.0.0.1",
-        "timestamp": "2025-11-25 20:39:50",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "127.0.0.1",
-        "timestamp": "2025-11-25 20:40:38",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "127.0.0.1",
-        "timestamp": "2025-11-25 20:40:45",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.244, 10.82.9.32",
-        "timestamp": "2025-11-25 20:42:35",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.244, 10.82.1.51",
-        "timestamp": "2025-11-25 20:44:50",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.244, 10.82.6.137",
-        "timestamp": "2025-11-25 20:44:54",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.244, 10.82.11.206",
-        "timestamp": "2025-11-25 20:45:40",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.244, 10.82.11.206",
-        "timestamp": "2025-11-25 20:48:03",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.244, 10.82.7.52",
-        "timestamp": "2025-11-25 20:51:24",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.244, 10.82.7.52",
-        "timestamp": "2025-11-25 21:19:55",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.244, 10.82.9.32",
-        "timestamp": "2025-11-25 21:30:13",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.244, 10.82.9.32",
-        "timestamp": "2025-11-25 21:55:14",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.244, 10.82.3.161",
-        "timestamp": "2025-11-25 22:00:25",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "105.235.129.244, 10.82.3.161",
-        "timestamp": "2025-11-25 22:01:50",
-        "date": "2025-11-25"
-      },
-      {
-        "ip": "127.0.0.1",
-        "timestamp": "2025-11-25 22:01:51",
-        "date": "2025-11-25"
-      }
-    ],
-    "unique_ips": [
-      "105.235.129.102, 10.82.11.206",
-      "105.235.129.244, 10.82.7.52",
-      "105.235.129.102, 10.82.6.137",
-      "105.235.130.243, 10.82.3.161",
-      "105.235.129.244, 10.82.3.161",
-      "105.235.129.244, 10.82.10.226",
-      "105.235.129.102, 10.82.9.32",
-      "105.235.130.243, 10.82.7.52",
-      "105.235.129.244, 10.82.9.32",
-      "105.235.129.244, 10.82.1.51",
-      "105.235.130.243, 10.82.11.205",
-      "105.235.129.102, 10.82.7.52",
-      "127.0.0.1",
-      "105.235.130.243, 10.82.0.252",
-      "105.235.129.244, 10.82.11.206",
-      "105.235.130.243, 10.82.10.233",
-      "105.235.129.244, 10.82.6.137",
-      "105.235.130.243, 10.82.9.32",
-      "105.235.130.243, 10.82.6.137",
-      "105.235.130.243, 10.82.5.119"
-    ]
+    "total": 0,
+    "today": [],
+    "unique_ips": []
   },
-  "clients": [],
   "settings": {
-    "theme": "vibrant-green"
-  }
+    "theme": "luxury-gold"
+  },
+  "clients": []
 }
